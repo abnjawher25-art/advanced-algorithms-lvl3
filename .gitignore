@@ -427,3 +427,55 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
+# ==========================================
+# Compiled Executables & Binaries
+# ==========================================
+*.exe
+*.out
+*.app
+*.o
+*.obj
+*.so
+*.dylib
+*.dll
+*.a
+*.lib
+
+# ==========================================
+# Build & Output Directories
+# ==========================================
+bin/
+obj/
+build/
+cmake-build-debug/
+cmake-build-release/
+out/
+x64/
+x86/
+Debug/
+Release/
+
+# ==========================================
+# IDE & Code Editor Folders
+# ==========================================
+# Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+
+# Visual Studio
+.vs/
+*.vcxproj.user
+*.suo
+*.user
+
+# CLion / JetBrains
+.idea/
+
+# ==========================================
+# OS Generated Files
+# ==========================================
+.DS_Store
+Thumbs.db
+desktop.ini
