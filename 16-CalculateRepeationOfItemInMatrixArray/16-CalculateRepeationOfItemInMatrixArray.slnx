@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="16-CalculateRepeationOfItemInMatrixArray/16-CalculateRepeationOfItemInMatrixArray.vcxproj" Id="d4d04aae-7bb0-4f84-9d3f-18ef7e9a5364" />
+</Solution>

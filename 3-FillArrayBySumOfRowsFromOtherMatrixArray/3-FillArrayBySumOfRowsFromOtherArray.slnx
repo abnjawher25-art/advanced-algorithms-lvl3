@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="3-FillArrayBySumOfRowsFromOtherArray/3-FillArrayBySumOfRowsFromOtherArray.vcxproj" Id="104d1535-4596-4a91-ba2a-acb87e8a185c" />
+</Solution>

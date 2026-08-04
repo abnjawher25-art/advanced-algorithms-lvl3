@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="10-GetMiddleRowAndColumnFromMatrixArray/10-GetMiddleRowAndColumnFromMatrixArray.vcxproj" Id="03098c12-7786-4dc0-b326-a326c3354f92" />
+</Solution>

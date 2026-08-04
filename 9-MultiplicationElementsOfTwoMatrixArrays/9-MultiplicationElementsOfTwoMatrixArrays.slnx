@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="9-MultiplicationElementsOfTwoMatrixArrays/9-MultiplicationElementsOfTwoMatrixArrays.vcxproj" Id="eeac2032-dacd-4a67-b347-fc2050755014" />
+</Solution>

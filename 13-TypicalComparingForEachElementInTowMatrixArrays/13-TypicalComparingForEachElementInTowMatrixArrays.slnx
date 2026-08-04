@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="13-TypicalComparingForEachElementInTowMatrixArrays/13-TypicalComparingForEachElementInTowMatrixArrays.vcxproj" Id="87f909f1-63b4-4068-92c9-c814955dce42" />
+</Solution>

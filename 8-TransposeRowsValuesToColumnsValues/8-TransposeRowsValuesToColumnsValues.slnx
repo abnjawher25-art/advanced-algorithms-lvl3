@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="8-TransposeRowsValuesToColumnsValues/8-TransposeRowsValuesToColumnsValues.vcxproj" Id="e95550cf-d38d-40c1-8c21-d236577e3fae" />
+</Solution>

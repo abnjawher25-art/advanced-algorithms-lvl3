@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="15-ScalarMatrixArray/15-ScalarMatrixArray.vcxproj" Id="defe97e3-bf5c-445c-9b05-496811e59321" />
+</Solution>

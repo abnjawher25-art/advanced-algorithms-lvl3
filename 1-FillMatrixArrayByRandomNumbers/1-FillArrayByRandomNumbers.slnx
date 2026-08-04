@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="1-FillArrayByRandomNumbers/1-FillArrayByRandomNumbers.vcxproj" Id="558414d3-b02e-4070-b7a6-ff9b9182b348" />
+</Solution>

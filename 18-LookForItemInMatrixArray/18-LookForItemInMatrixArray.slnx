@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="18-LookForItemInMatrixArray/18-LookForItemInMatrixArray.vcxproj" Id="1d18644a-3427-464d-ae1f-56709c131f33" />
+</Solution>

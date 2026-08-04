@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="7-FillMatrixArrayByOrderNumbers/7-FillMatrixArrayByOrderNumbers.vcxproj" Id="528ef8b5-ec4d-4279-a92e-2644116e0a07" />
+</Solution>

@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="6-FillArrayBySumOfColumnsFromOtherMatrixArray/6-FillArrayBySumOfColumnsFromOtherMatrixArray.vcxproj" Id="f138107d-37b9-4a76-a99d-e64641c88ff3" />
+</Solution>

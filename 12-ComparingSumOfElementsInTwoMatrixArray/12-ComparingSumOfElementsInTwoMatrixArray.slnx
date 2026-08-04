@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="12-ComparingSumOfElementsInTwoMatrixArray/12-ComparingSumOfElementsInTwoMatrixArray.vcxproj" Id="8aaef4bb-32cc-487d-ac7e-52ec971f1a11" />
+</Solution>

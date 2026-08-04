@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="11-findSumOfElementsInMatrixArray/11-findSumOfElementsInMatrixArray.vcxproj" Id="e0cb06d4-4604-41ef-852b-6041db4c6fa8" />
+</Solution>

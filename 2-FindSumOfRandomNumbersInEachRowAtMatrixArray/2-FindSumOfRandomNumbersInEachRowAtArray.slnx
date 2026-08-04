@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="2-FindSumOfRandomNumbersInEachRowAtArray/2-FindSumOfRandomNumbersInEachRowAtArray.vcxproj" Id="e35ef163-0572-4382-ae97-8e3eae6f4125" />
+</Solution>

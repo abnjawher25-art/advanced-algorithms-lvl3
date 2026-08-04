@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="14-IdentityMatrixArray/14-IdentityMatrixArray.vcxproj" Id="94b3eec8-aa5a-4076-b2e5-0a8da850436e" />
+</Solution>
