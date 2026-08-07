@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="21-PalindromMatrixArray/21-PalindromMatrixArray.vcxproj" Id="05d5a046-bd60-45d9-8968-824dd5cd9cbd" />
+</Solution>

@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="19-IntersectedNumbersInMatrixArrays/19-IntersectedNumbersInMatrixArrays.vcxproj" Id="352bf14d-591f-4ba7-a3ec-4ca2d277fd3d" />
+</Solution>

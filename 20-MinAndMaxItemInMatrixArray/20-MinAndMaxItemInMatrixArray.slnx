@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="20-MinAndMaxItemInMatrixArray/20-MinAndMaxItemInMatrixArray.vcxproj" Id="79f4fce8-84f7-4d82-b71d-9401eab3a5f3" />
+</Solution>
