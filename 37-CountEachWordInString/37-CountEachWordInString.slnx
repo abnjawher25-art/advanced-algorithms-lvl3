@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="37-CountEachWordInString/37-CountEachWordInString.vcxproj" Id="29444bd5-6ceb-4bbe-8a35-1eede1721d7a" />
+</Solution>

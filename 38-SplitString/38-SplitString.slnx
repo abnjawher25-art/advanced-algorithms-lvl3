@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="38-SplitString/38-SplitString.vcxproj" Id="605fd5a5-5013-4487-93fa-509cbed9693c" />
+</Solution>

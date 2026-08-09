@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="31-CountSpecificLetterInText/31-CountSpecificLetterInText.vcxproj" />
+</Solution>
