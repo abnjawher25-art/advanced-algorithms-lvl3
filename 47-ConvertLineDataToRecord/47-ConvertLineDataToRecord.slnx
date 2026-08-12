@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="47-ConvertLineDataToRecord/47-ConvertLineDataToRecord.vcxproj" Id="ea541e57-1204-4e29-8a4b-3936d01036b9" />
+</Solution>

@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="48-AddClientsToFile/48-AddClientsToFile.vcxproj" Id="e4ee716b-fe16-4bdf-847e-8154324a480b" />
+</Solution>
