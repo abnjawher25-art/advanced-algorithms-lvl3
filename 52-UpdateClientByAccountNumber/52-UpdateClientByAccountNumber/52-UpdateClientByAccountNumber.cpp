@@ -53,7 +53,7 @@ sClient ConvetLineToRecord(string Line, string seperator = "#//#")
     sClient Client;
     vector<string> vClientData = splitString(Line, seperator);
 
-  
+
     if (vClientData.size() >= 5)
     {
         Client.AccountNumber = vClientData[0];
@@ -87,9 +87,9 @@ vector<sClient> LoadClientsDataFromFile(string FileName)
 
     fstream MyFile;
 
-    MyFile.open(FileName, ios::in); 
+    MyFile.open(FileName, ios::in);
 
-    
+
     if (MyFile.is_open())
     {
 
@@ -134,7 +134,7 @@ string readClientAccountNumber(string Msg)
 
 bool FindClientByAccountNumber(string AccountNumber, const vector<sClient>& vClients, sClient& client)
 {
-  
+
     for (const sClient& C : vClients)
     {
         if (C.AccountNumber == AccountNumber)
@@ -148,19 +148,30 @@ bool FindClientByAccountNumber(string AccountNumber, const vector<sClient>& vCli
 }
 
 
-bool MarkClientForDeleteByAccountNumber(string AccountNumber, vector<sClient>& vClients)
+sClient ChangeClientRecord(string AccountNumber)
 {
+    sClient Client;
 
-    for (sClient& C : vClients)
-    {
-        if (C.AccountNumber == AccountNumber)
-        {
-            C.MarkForDelete = false;
-            return true;
-        }
-    }
+    Client.AccountNumber = AccountNumber;
 
-    return false;
+
+    cout << "\n\nEnter Pin Code:";
+    getline(cin >> ws, Client.PinCode);
+
+
+    cout << "\n\nEnter Client Name:";
+    getline(cin, Client.Name);
+
+
+    cout << "\n\nEnter Phone Number:";
+    getline(cin, Client.Phone);
+
+
+    cout << "\n\nEnter Account Balance:";
+    cin >> Client.AccountBalance;
+
+
+    return Client;
 }
 
 
@@ -168,7 +179,7 @@ vector<sClient> SaveClientDataToFile(string FileName, const vector<sClient>& vCl
 {
     fstream MyFile;
 
-    MyFile.open(FileName, ios::out); 
+    MyFile.open(FileName, ios::out);
 
     string DataLine;
 
@@ -176,7 +187,7 @@ vector<sClient> SaveClientDataToFile(string FileName, const vector<sClient>& vCl
     {
         for (const sClient& C : vClients)
         {
-            if (C.MarkForDelete == false) 
+            if (C.MarkForDelete == false)
             {
                 DataLine = ConvetRecordToLine(C);
                 MyFile << DataLine << endl;
@@ -190,7 +201,7 @@ vector<sClient> SaveClientDataToFile(string FileName, const vector<sClient>& vCl
 }
 
 
-bool DeleteClientByAccountNumber(string AccountNumber, vector<sClient>& vClients)
+bool UpdateClientByAccountNumber(string AccountNumber, vector<sClient>& vClients)
 {
     sClient Client;
     char Choice = 'n';
@@ -198,18 +209,24 @@ bool DeleteClientByAccountNumber(string AccountNumber, vector<sClient>& vClients
     if (FindClientByAccountNumber(AccountNumber, vClients, Client))
     {
         PrintClientCard(Client);
-        cout << "\nAre You Sure You Want To Delete This Client? (y/n): ";
+        cout << "\nAre You Sure You Want To Update This Client? (y/n): ";
         cin >> Choice;
 
         if (Choice == 'y' || Choice == 'Y')
         {
-            MarkClientForDeleteByAccountNumber(AccountNumber, vClients);
+            for (sClient& C : vClients)
+            {
+
+                if (C.AccountNumber == AccountNumber)
+                {
+                    C = ChangeClientRecord(AccountNumber);
+                    break;
+                }
+            }
 
             SaveClientDataToFile(ClientFileName, vClients);
 
-            vClients = LoadClientsDataFromFile(ClientFileName);
-
-            cout << "\n\nClient Delete successfully.";
+            cout << "\n\nClient update successfully.";
             return true;
 
         }
@@ -224,12 +241,12 @@ bool DeleteClientByAccountNumber(string AccountNumber, vector<sClient>& vClients
 
 int main()
 {
-    
+
     vector<sClient> vClients = LoadClientsDataFromFile(ClientFileName);
 
     string AccountNumber = readClientAccountNumber("Enter Account Number of Client: ");
 
-    DeleteClientByAccountNumber(AccountNumber,vClients);
+    UpdateClientByAccountNumber(AccountNumber, vClients);
 
 
     cout << "\n\nPress enter key to exit...";
